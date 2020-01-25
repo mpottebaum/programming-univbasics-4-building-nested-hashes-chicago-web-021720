@@ -25,7 +25,12 @@ def monopoly_with_third_tier
       :rent_three => 300,
       :rent_four => 400
       },
-    :names => "value"
+    :names => {
+      :key1 => "value1",
+      :key2 => "value2",
+      :key3 => "value3",
+      :key4 => "value4"
+    }
     }
   }
 end
